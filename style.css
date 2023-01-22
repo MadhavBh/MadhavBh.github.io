@@ -112,6 +112,8 @@ h4{
 
 #schedule{
 	padding-top: 50px;
+	overflow-x: auto;
+	overflow-y: hidden;
 
 }
 
