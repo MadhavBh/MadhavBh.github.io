@@ -1,0 +1,357 @@
+/*--------------------------------------------------------------------------*/
+/*------------------------------ GOOGLE FONTS ------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300&family=Sofia+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");
+
+/*----------------------------------------------------------*/
+/*------------------------- STYLES -------------------------*/
+/*----------------------------------------------------------*/
+
+body {
+  background-image: url("./bbg.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.stage-main {
+  background-image: url("./stagefg.jpg");
+}
+
+.theatre-main {
+  background-image: url("./theatremain.jpg");
+  background-color: #00000049;
+  border-radius: 25px;
+}
+
+.header {
+  font-family: "Yeseva One";
+  letter-spacing: 5px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.MIME {
+  background-image: url("./mime.jpg");
+}
+
+.IDC-S {
+  background-image: url("./IDC-S.jpg");
+  background-color: rgba(255, 0, 0, 0.744);
+}
+
+.IDG {
+  background-image: url("./IDG.jpg");
+  background-color: rgb(177, 177, 9);
+}
+
+.BOTBW {
+  background-image: url("./BOTBW.jpg");
+  background-color: rgba(8, 133, 8, 0.796);
+}
+
+.BOTBI {
+  background-image: url("./BOTBI.jpg");
+  background-color: rgba(0, 0, 255, 0.685);
+}
+
+.WA {
+  background-image: url("./WA.jpg");
+  background-color: rgb(14, 213, 213);
+}
+
+.street-t {
+  background-image: url("./street-t.jpg");
+  background-color: #0000009f;
+}
+
+.proscenium {
+  background-image: url("./proscenium.jpg");
+  background-color: #0000008c;
+}
+
+.extempore {
+  background-image: url("./extempore.jpg");
+  background-color: rgba(30, 7, 116, 0.719);
+}
+
+.quiz {
+  background-image: url("./quiz.jpg");
+  background-color: rgba(116, 116, 6, 0.836);
+}
+
+.potpourri {
+  background-image: url("./potpourri.jpg");
+  background-color: rgba(175, 7, 7, 0.808);
+}
+
+.jam {
+  background-image: url("./jam.jpg");
+  background-color: rgb(131, 5, 114);
+}
+
+.debate {
+  background-image: url("./debate.jpg");
+  background-color: rgba(9, 122, 103, 0.788);
+}
+
+.dumbcharades {
+  background-image: url("./dumbcharades.jpg");
+  background-color: #926023e7;
+}
+
+.art-main {
+  background-image: url("./art-main.jpg");
+  background-color: #00000059;
+}
+
+.lit-main {
+  background-image: url("./litmain.jpg");
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+.cartooning {
+  background-image: url("./cartooning.jpg");
+  background-color: rgba(172, 59, 7, 0.87);
+}
+
+.greetings {
+  background-image: url("./greetings.jpg");
+  background-color: rgba(156, 109, 8, 0.726);
+}
+
+.painting {
+  background-image: url("./painting.jpg");
+  background-color: rgba(15, 6, 141, 0.76);
+}
+
+.potart {
+  background-image: url("./potart.jpg");
+  background-color: rgba(163, 160, 8, 0.863);
+}
+
+.poster {
+  background-image: url("./poster.jpg");
+  background-color: rgba(26, 172, 7, 0.685);
+  background-position: cover;
+}
+
+.poster .section-title {
+  margin-top: -2rem;
+}
+
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+
+.botbw-info {
+  font-family: "Raleway";
+  letter-spacing: 5px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.section {
+  background-blend-mode: multiply;
+  background-size: cover;
+  border-radius: 25px;
+  padding: 5rem 2rem;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.section-title {
+  font-family: "Yeseva One";
+  padding-bottom: 2rem;
+}
+
+.section-main-text {
+  padding: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: medium;
+  color: #f0f8ff;
+  font-size: 1.25rem;
+}
+
+.regulations-text {
+  font-family: "Yeseva One";
+  margin: 3rem 0 1rem 0;
+}
+
+.rulediv {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: grid;
+  width: 1000px;
+}
+
+.rulediv-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: light;
+  text-align: left;
+  font-size: 1rem;
+  color: #f0f8ff;
+}
+
+.navbar,
+a {
+  padding-bottom: 300px;
+  text-align: center;
+  list-style: none;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  letter-spacing: 5px;
+  transition: letter-spacing 1s;
+}
+
+.navbar {
+  position: relative;
+}
+
+a:not(.no-transition):hover {
+  letter-spacing: 25px;
+}
+
+/*------------------------------------------------*/
+/*---------------- NAVBAR DESKTOP ----------------*/
+/*------------------------------------------------*/
+
+.navbar-desktop {
+  margin-top: -5rem;
+}
+
+.navbar-desktop-list {
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  display: grid;
+  gap: 3rem;
+}
+
+/*-----------------------------------------------*/
+/*---------------- NAVBAR MOBILE ----------------*/
+/*-----------------------------------------------*/
+
+.navbar-mobile {
+  display: none;
+}
+
+.header-title {
+  padding-bottom: 25rem;
+  font-weight: lighter;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-top: 4rem;
+}
+
+.menu-hamburger {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 0.25rem;
+  display: grid;
+  gap: 0.5rem;
+  right: 0;
+  left: 0;
+  top: 2rem;
+}
+
+.burger-bun {
+  background-color: #fff;
+  border-radius: 40px;
+  height: 6px;
+  width: 50px;
+}
+
+.menu-links {
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  list-style: none;
+  overflow: hidden;
+  margin: 0 auto;
+  display: grid;
+  opacity: 0;
+  gap: 4rem;
+}
+
+.menu-links-reveal {
+  animation: MenuLinksReveal 500ms ease-in-out forwards;
+}
+
+.menu-links-hide {
+  animation: MenuLinksHide 500ms ease-in-out forwards;
+}
+
+@keyframes MenuLinksReveal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes MenuLinksHide {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.menu-links li {
+  text-align: center;
+}
+
+@media all and (max-width: 1022px) {
+  .rulediv {
+    width: 500px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .rulediv {
+    width: 500px;
+  }
+}
+
+@media (max-width: 850px) {
+  .navbar-desktop {
+    display: none;
+  }
+
+  .navbar-mobile {
+    display: contents;
+  }
+  .menu-links {
+    padding: 4rem 0 0 0;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .rulediv {
+    width: 300px;
+  }
+}
+
+/*------------------------------------------------------*/
+/*--------------------- END OF CSS ---------------------*/
+/*------------------------------------------------------*/
